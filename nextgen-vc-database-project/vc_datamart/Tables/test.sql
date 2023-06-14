@@ -1,0 +1,28 @@
+﻿CREATE TABLE [vc_datamart].[test] (
+    [table_id]                 INT        IDENTITY (1, 1) NOT NULL,
+    [UID]                      FLOAT (53) NOT NULL,
+    [In Scope]                 NTEXT      NOT NULL,
+    [Year]                     FLOAT (53) NOT NULL,
+    [Business Unit]            FLOAT (53) NULL,
+    [Region]                   NTEXT      NOT NULL,
+    [Unit]                     NTEXT      NOT NULL,
+    [Cost Center]              FLOAT (53) NULL,
+    [GL Account]               FLOAT (53) NULL,
+    [Labor/NonLabor]           NTEXT      NOT NULL,
+    [Direct/Indirect]          FLOAT (53) NULL,
+    [Vendor data]              FLOAT (53) NULL,
+    [Amount]                   FLOAT (53) NOT NULL,
+    [Exchange rate]            FLOAT (53) NULL,
+    [Amount (USD)]             FLOAT (53) NULL,
+    [Key]                      NTEXT      NOT NULL,
+    [Classification]           NTEXT      NOT NULL,
+    [Area]                     NTEXT      NOT NULL,
+    [Corporate vs Operations]  NTEXT      NOT NULL,
+    [Function]                 NTEXT      NOT NULL,
+    [GL Category]              NTEXT      NOT NULL,
+    [GL Subcategory]           NTEXT      NOT NULL,
+    [Procurable/NonProcurable] NTEXT      NOT NULL,
+    [Savings Source]           NTEXT      NOT NULL,
+    [BU Revenue]               FLOAT (53) NOT NULL
+);
+

@@ -1,0 +1,27 @@
+﻿CREATE TABLE [vc_datamart].[datamart_baseline] (
+    [UID]                      FLOAT (53)    NULL,
+    [In Scope]                 VARCHAR (255) NULL,
+    [Year]                     SMALLINT      NULL,
+    [Business Unit]            VARCHAR (255) NULL,
+    [Region]                   VARCHAR (255) NULL,
+    [Unit ]                    VARCHAR (255) NULL,
+    [Cost Center]              VARCHAR (255) NULL,
+    [GL Account]               VARCHAR (255) NULL,
+    [Labor/NonLabor]           VARCHAR (255) NULL,
+    [Direct/Indirect]          FLOAT (53)    NULL,
+    [Vendor data]              FLOAT (53)    NULL,
+    [Amount ]                  FLOAT (53)    NULL,
+    [Exchange rate ]           FLOAT (53)    NULL,
+    [Amount (USD)]             FLOAT (53)    NULL,
+    [Key ]                     VARCHAR (255) NULL,
+    [Classification]           VARCHAR (255) NULL,
+    [Area ]                    VARCHAR (255) NULL,
+    [Corporate vs Operations ] VARCHAR (255) NULL,
+    [Function]                 VARCHAR (255) NULL,
+    [GL Category]              VARCHAR (255) NULL,
+    [GL Subcategory]           VARCHAR (255) NULL,
+    [Procurable/NonProcurable] VARCHAR (255) NULL,
+    [Savings Source]           VARCHAR (255) NULL,
+    [BU Revenue]               FLOAT (53)    NULL
+);
+
